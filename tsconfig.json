@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2020", // Or "es6", "es2016", "es2017" etc. for newer features
+    "module": "commonjs", // <-- IMPORTANT: Set this to "commonjs"
+    "outDir": "./dist",
+    "rootDir": "./src", // Assuming your .ts files are in 'src'
+    "strict": true,
+    "esModuleInterop": true, // Recommended for better interop with CJS modules
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*.ts"], // Adjust if your files aren't in 'src'
+  "exclude": ["node_modules"]
+}
